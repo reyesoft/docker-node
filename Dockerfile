@@ -2,7 +2,7 @@ FROM node:9.11
 
 RUN  apt-get update \
     # Install lftp
-    && apt-get -qq install lftp
+    && apt-get -qq install lftp \
     # Install latest chrome dev package, which installs the necessary libs to
     # make the bundled version of Chromium that Puppeteer installs work.
     && apt-get install -y wget --no-install-recommends \
