@@ -1,4 +1,4 @@
-FROM node:10.17
+FROM node:12.16.2
 
 RUN  apt-get update \
     # Install lftp
