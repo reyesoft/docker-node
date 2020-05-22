@@ -3,7 +3,7 @@ FROM node:12.16.2
 ###
 # Install libraries needed
 RUN  apt-get update \
-    && apt-get -qq install --noinstall-recommends -y \
+    && apt-get -qq -y --no-install-recommends install \
     lftp \
     wget \
     xvfb \
