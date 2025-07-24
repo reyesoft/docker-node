@@ -1,4 +1,4 @@
-FROM node:20.9.0
+FROM node:20.19.4
 
 ###
 # Install libraries needed
